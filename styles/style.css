@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/*font-family: 'Big Shoulders Display', cursivo;
+família de fontes: 'Lexend Deca', sem serifa;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    height: 100vh;
+    width: 100vw;
+    display: flex; 
+}
+
+section{
+    margin: auto;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.colecao__carros {
+    display: flex;
+    flex-direction: row;
+    width: 880px;
+    height: 500px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.card{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+img{
+    width: 32%;
+}
+
+.titulo{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursivo ;
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sem serifa;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+   border-bottom-left-radius: 10px;
+   border-top-left-radius: 10px;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}  
+
+.botao{
+    font-family: 'Lexend Deca', sem serifa;
+    font-size: 18px;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 75px;
+    text-decoration: none;
+    text-align: center;
+    color: hsl(0, 0%, 95%);
+    padding: 10px 8px;
+    width: 70%;
+}
+
+
